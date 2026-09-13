@@ -1,4 +1,13 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App.jsx'
+import './index.css' // Esta linha é obrigatória para injetar o layout
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+)
 
 // Brand Colors
 const COLORS = {
